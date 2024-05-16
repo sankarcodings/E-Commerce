@@ -1,0 +1,13 @@
+.price-rate{
+    display: flex;
+}
+.fix-price{
+    margin-left: 10px;
+    color: grey;
+    font-size: smaller;
+    margin-top: 3px;
+}
+.price p{
+    font-size: smaller;
+    color: grey;
+}

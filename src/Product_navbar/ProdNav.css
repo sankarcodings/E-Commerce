@@ -1,0 +1,28 @@
+.prod-nav{
+    margin-top: 5px;
+}
+.img img{
+    width:80px;
+    height: 80px;
+}
+.prod-nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: rgba(8, 8, 8, 0.16) 0px 1px 4px;
+    padding: 10px;
+}
+.prod-nav a{
+    text-decoration: none;
+    color: black;
+}
+.arrow{
+    font-size:larger;
+}
+.prod-nav a:hover{
+    color: skyblue;
+}
+.prod-nav .arrow:hover{
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+}

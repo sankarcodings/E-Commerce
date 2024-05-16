@@ -1,0 +1,111 @@
+
+/* .cart-nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(13, 14, 13);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.cart-order{
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+    font-size: larger;
+}
+.cart-orlink{
+    text-decoration: none;
+    color: white;
+    margin-left: 3px;
+}
+.cart-orderlogo{
+    color: white;
+}
+.cart-home{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: x-large;
+} */
+.add-cart{
+    /* display: flex;
+    justify-content: space-evenly; */
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 20px;
+}
+
+.cart-img{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+.cart-images{
+    width: 80px;
+    height: 80px;
+}
+.pri-rat{
+    margin-top: -10px;
+}
+/* .cart-img:hover{
+   cursor: pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+} */
+.Prod-name{
+    margin: 0;
+}
+.cart-img p{
+    margin: 0;
+}
+.add-cart p{
+    width: 150px;
+}
+.trend-button{
+    width: fit-content;
+    margin-top: 5px;
+    margin-left: 5px;
+    color:white;
+    background-color:  black;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    padding:10px;
+    height: fit-content;
+}
+.trend-button:hover{
+    background-color: darkgray;
+}
+.cart-link,.cart-home{
+    color: white;
+    text-decoration: none;
+}
+.cart-quan{
+    margin-top: -30px;
+}
+.cart-quan h5{
+    margin-bottom: 0;
+    
+}
+.quan-button{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+.quan-button button{
+    background-color: black;
+    outline: 0;
+    border: 0;
+    color: white;
+    height: fit-content; 
+}
+.quan-button h4{
+    width: 30px;
+    text-align: center;
+}
+.quan-button button,h4{
+    margin-right: 4px;
+}
